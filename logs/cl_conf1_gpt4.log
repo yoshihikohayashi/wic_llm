@@ -1,0 +1,332 @@
+>>> --llm=gpt4
+Hello, this is classify_control.py with gpt4
+
+>>>>> Executing / Fri May 10 06:15:13 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=23 --wv_dim=-1 --verbose=False
+Accuracy: 0.705
+<<<<< Finished; Run count: 1 Total runs: 100 / Fri May 10 06:28:21 2024
+
+>>>>> Executing / Fri May 10 06:28:21 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=123 --wv_dim=-1 --verbose=False
+Accuracy: 0.7
+<<<<< Finished; Run count: 2 Total runs: 100 / Fri May 10 06:40:23 2024
+
+>>>>> Executing / Fri May 10 06:40:23 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=223 --wv_dim=-1 --verbose=False
+Accuracy: 0.7035714285714286
+<<<<< Finished; Run count: 3 Total runs: 100 / Fri May 10 06:50:05 2024
+
+>>>>> Executing / Fri May 10 06:50:05 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=323 --wv_dim=-1 --verbose=False
+Accuracy: 0.7
+<<<<< Finished; Run count: 4 Total runs: 100 / Fri May 10 07:02:07 2024
+
+>>>>> Executing / Fri May 10 07:02:07 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=3407 --wv_dim=-1 --verbose=False
+Accuracy: 0.6971428571428572
+<<<<< Finished; Run count: 5 Total runs: 100 / Fri May 10 07:10:40 2024
+
+ llm: gpt4 desc: contrast wv_dims: -1 seeds: [23, 123, 223, 323, 3407] Ave: 0.7011428571428572 Std dev: 0.0028066975291983535
+
+>>>>> Executing / Fri May 10 07:10:40 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=23 --wv_dim=0 --verbose=False
+Accuracy: 0.6942857142857143
+<<<<< Finished; Run count: 6 Total runs: 100 / Fri May 10 07:21:43 2024
+
+>>>>> Executing / Fri May 10 07:21:43 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=123 --wv_dim=0 --verbose=False
+Accuracy: 0.7092857142857143
+<<<<< Finished; Run count: 7 Total runs: 100 / Fri May 10 07:29:34 2024
+
+>>>>> Executing / Fri May 10 07:29:34 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=223 --wv_dim=0 --verbose=False
+Accuracy: 0.6914285714285714
+<<<<< Finished; Run count: 8 Total runs: 100 / Fri May 10 07:44:55 2024
+
+>>>>> Executing / Fri May 10 07:44:55 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=323 --wv_dim=0 --verbose=False
+Accuracy: 0.7
+<<<<< Finished; Run count: 9 Total runs: 100 / Fri May 10 07:57:02 2024
+
+>>>>> Executing / Fri May 10 07:57:02 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=3407 --wv_dim=0 --verbose=False
+Accuracy: 0.7178571428571429
+<<<<< Finished; Run count: 10 Total runs: 100 / Fri May 10 08:04:54 2024
+
+ llm: gpt4 desc: contrast wv_dims: 0 seeds: [23, 123, 223, 323, 3407] Ave: 0.7025714285714285 Std dev: 0.009779194908642774
+
+>>>>> Executing / Fri May 10 08:04:54 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=23 --wv_dim=32 --verbose=False
+Accuracy: 0.7178571428571429
+<<<<< Finished; Run count: 11 Total runs: 100 / Fri May 10 08:13:26 2024
+
+>>>>> Executing / Fri May 10 08:13:26 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=123 --wv_dim=32 --verbose=False
+Accuracy: 0.685
+<<<<< Finished; Run count: 12 Total runs: 100 / Fri May 10 08:21:59 2024
+
+>>>>> Executing / Fri May 10 08:21:59 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=223 --wv_dim=32 --verbose=False
+Accuracy: 0.7114285714285714
+<<<<< Finished; Run count: 13 Total runs: 100 / Fri May 10 08:34:00 2024
+
+>>>>> Executing / Fri May 10 08:34:00 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=323 --wv_dim=32 --verbose=False
+Accuracy: 0.7121428571428572
+<<<<< Finished; Run count: 14 Total runs: 100 / Fri May 10 08:47:11 2024
+
+>>>>> Executing / Fri May 10 08:47:11 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=3407 --wv_dim=32 --verbose=False
+Accuracy: 0.715
+<<<<< Finished; Run count: 15 Total runs: 100 / Fri May 10 09:05:00 2024
+
+ llm: gpt4 desc: contrast wv_dims: 32 seeds: [23, 123, 223, 323, 3407] Ave: 0.7082857142857143 Std dev: 0.011863165424015231
+
+>>>>> Executing / Fri May 10 09:05:00 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=23 --wv_dim=128 --verbose=False
+Accuracy: 0.7207142857142858
+<<<<< Finished; Run count: 16 Total runs: 100 / Fri May 10 09:15:54 2024
+
+>>>>> Executing / Fri May 10 09:15:54 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=123 --wv_dim=128 --verbose=False
+Accuracy: 0.7042857142857143
+<<<<< Finished; Run count: 17 Total runs: 100 / Fri May 10 09:29:06 2024
+
+>>>>> Executing / Fri May 10 09:29:06 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=223 --wv_dim=128 --verbose=False
+Accuracy: 0.6985714285714286
+<<<<< Finished; Run count: 18 Total runs: 100 / Fri May 10 09:46:57 2024
+
+>>>>> Executing / Fri May 10 09:46:57 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=323 --wv_dim=128 --verbose=False
+Accuracy: 0.715
+<<<<< Finished; Run count: 19 Total runs: 100 / Fri May 10 10:01:20 2024
+
+>>>>> Executing / Fri May 10 10:01:20 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=3407 --wv_dim=128 --verbose=False
+Accuracy: 0.7085714285714285
+<<<<< Finished; Run count: 20 Total runs: 100 / Fri May 10 10:09:55 2024
+
+ llm: gpt4 desc: contrast wv_dims: 128 seeds: [23, 123, 223, 323, 3407] Ave: 0.7094285714285714 Std dev: 0.007790627545391982
+
+>>>>> Executing / Fri May 10 10:09:55 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=23 --wv_dim=512 --verbose=False
+Accuracy: 0.7207142857142858
+<<<<< Finished; Run count: 21 Total runs: 100 / Fri May 10 10:18:31 2024
+
+>>>>> Executing / Fri May 10 10:18:31 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=123 --wv_dim=512 --verbose=False
+Accuracy: 0.73
+<<<<< Finished; Run count: 22 Total runs: 100 / Fri May 10 10:35:17 2024
+
+>>>>> Executing / Fri May 10 10:35:17 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=223 --wv_dim=512 --verbose=False
+Accuracy: 0.7142857142857143
+<<<<< Finished; Run count: 23 Total runs: 100 / Fri May 10 10:43:53 2024
+
+>>>>> Executing / Fri May 10 10:43:53 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=323 --wv_dim=512 --verbose=False
+Accuracy: 0.7042857142857143
+<<<<< Finished; Run count: 24 Total runs: 100 / Fri May 10 10:52:29 2024
+
+>>>>> Executing / Fri May 10 10:52:29 2024 : python cl_conf1.py --verb=contrast --llm=gpt4 --seed=3407 --wv_dim=512 --verbose=False
+Accuracy: 0.7214285714285714
+<<<<< Finished; Run count: 25 Total runs: 100 / Fri May 10 11:08:05 2024
+
+ llm: gpt4 desc: contrast wv_dims: 512 seeds: [23, 123, 223, 323, 3407] Ave: 0.7181428571428572 Std dev: 0.00854280936441488
+
+>>>>> Executing / Fri May 10 11:08:05 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=23 --wv_dim=-1 --verbose=False
+Accuracy: 0.72
+<<<<< Finished; Run count: 26 Total runs: 100 / Fri May 10 11:16:06 2024
+
+>>>>> Executing / Fri May 10 11:16:06 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=123 --wv_dim=-1 --verbose=False
+Accuracy: 0.7128571428571429
+<<<<< Finished; Run count: 27 Total runs: 100 / Fri May 10 11:24:08 2024
+
+>>>>> Executing / Fri May 10 11:24:08 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=223 --wv_dim=-1 --verbose=False
+Accuracy: 0.7314285714285714
+<<<<< Finished; Run count: 28 Total runs: 100 / Fri May 10 11:32:09 2024
+
+>>>>> Executing / Fri May 10 11:32:09 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=323 --wv_dim=-1 --verbose=False
+Accuracy: 0.7207142857142858
+<<<<< Finished; Run count: 29 Total runs: 100 / Fri May 10 11:40:10 2024
+
+>>>>> Executing / Fri May 10 11:40:10 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=3407 --wv_dim=-1 --verbose=False
+Accuracy: 0.7157142857142857
+<<<<< Finished; Run count: 30 Total runs: 100 / Fri May 10 11:48:11 2024
+
+ llm: gpt4 desc: direct wv_dims: -1 seeds: [23, 123, 223, 323, 3407] Ave: 0.7201428571428572 Std dev: 0.00633100565890295
+
+>>>>> Executing / Fri May 10 11:48:11 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=23 --wv_dim=0 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 31 Total runs: 100 / Fri May 10 11:54:34 2024
+
+>>>>> Executing / Fri May 10 11:54:34 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=123 --wv_dim=0 --verbose=False
+Accuracy: 0.7342857142857143
+<<<<< Finished; Run count: 32 Total runs: 100 / Fri May 10 12:00:05 2024
+
+>>>>> Executing / Fri May 10 12:00:05 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=223 --wv_dim=0 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 33 Total runs: 100 / Fri May 10 12:05:36 2024
+
+>>>>> Executing / Fri May 10 12:05:36 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=323 --wv_dim=0 --verbose=False
+Accuracy: 0.7364285714285714
+<<<<< Finished; Run count: 34 Total runs: 100 / Fri May 10 12:11:07 2024
+
+>>>>> Executing / Fri May 10 12:11:07 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=3407 --wv_dim=0 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 35 Total runs: 100 / Fri May 10 12:16:37 2024
+
+ llm: gpt4 desc: direct wv_dims: 0 seeds: [23, 123, 223, 323, 3407] Ave: 0.7351428571428571 Std dev: 0.0006998542122237599
+
+>>>>> Executing / Fri May 10 12:16:37 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=23 --wv_dim=32 --verbose=False
+Accuracy: 0.7285714285714285
+<<<<< Finished; Run count: 36 Total runs: 100 / Fri May 10 12:24:39 2024
+
+>>>>> Executing / Fri May 10 12:24:39 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=123 --wv_dim=32 --verbose=False
+Accuracy: 0.7278571428571429
+<<<<< Finished; Run count: 37 Total runs: 100 / Fri May 10 12:32:41 2024
+
+>>>>> Executing / Fri May 10 12:32:41 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=223 --wv_dim=32 --verbose=False
+Accuracy: 0.7457142857142857
+<<<<< Finished; Run count: 38 Total runs: 100 / Fri May 10 12:40:42 2024
+
+>>>>> Executing / Fri May 10 12:40:42 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=323 --wv_dim=32 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 39 Total runs: 100 / Fri May 10 12:47:47 2024
+
+>>>>> Executing / Fri May 10 12:47:47 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=3407 --wv_dim=32 --verbose=False
+Accuracy: 0.7285714285714285
+<<<<< Finished; Run count: 40 Total runs: 100 / Fri May 10 12:55:49 2024
+
+ llm: gpt4 desc: direct wv_dims: 32 seeds: [23, 123, 223, 323, 3407] Ave: 0.7331428571428571 Std dev: 0.006800360134521076
+
+>>>>> Executing / Fri May 10 12:55:49 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=23 --wv_dim=128 --verbose=False
+Accuracy: 0.7307142857142858
+<<<<< Finished; Run count: 41 Total runs: 100 / Fri May 10 13:03:53 2024
+
+>>>>> Executing / Fri May 10 13:03:53 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=123 --wv_dim=128 --verbose=False
+Accuracy: 0.7342857142857143
+<<<<< Finished; Run count: 42 Total runs: 100 / Fri May 10 13:10:58 2024
+
+>>>>> Executing / Fri May 10 13:10:58 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=223 --wv_dim=128 --verbose=False
+Accuracy: 0.7357142857142858
+<<<<< Finished; Run count: 43 Total runs: 100 / Fri May 10 13:19:02 2024
+
+>>>>> Executing / Fri May 10 13:19:02 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=323 --wv_dim=128 --verbose=False
+Accuracy: 0.7192857142857143
+<<<<< Finished; Run count: 44 Total runs: 100 / Fri May 10 13:27:04 2024
+
+>>>>> Executing / Fri May 10 13:27:04 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=3407 --wv_dim=128 --verbose=False
+Accuracy: 0.7342857142857143
+<<<<< Finished; Run count: 45 Total runs: 100 / Fri May 10 13:33:11 2024
+
+ llm: gpt4 desc: direct wv_dims: 128 seeds: [23, 123, 223, 323, 3407] Ave: 0.7308571428571429 Std dev: 0.00601698276818649
+
+>>>>> Executing / Fri May 10 13:33:11 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=23 --wv_dim=512 --verbose=False
+Accuracy: 0.7192857142857143
+<<<<< Finished; Run count: 46 Total runs: 100 / Fri May 10 13:41:17 2024
+
+>>>>> Executing / Fri May 10 13:41:17 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=123 --wv_dim=512 --verbose=False
+Accuracy: 0.7164285714285714
+<<<<< Finished; Run count: 47 Total runs: 100 / Fri May 10 13:48:23 2024
+
+>>>>> Executing / Fri May 10 13:48:23 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=223 --wv_dim=512 --verbose=False
+Accuracy: 0.7207142857142858
+<<<<< Finished; Run count: 48 Total runs: 100 / Fri May 10 13:56:28 2024
+
+>>>>> Executing / Fri May 10 13:56:28 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=323 --wv_dim=512 --verbose=False
+Accuracy: 0.7221428571428572
+<<<<< Finished; Run count: 49 Total runs: 100 / Fri May 10 14:04:38 2024
+
+>>>>> Executing / Fri May 10 14:04:38 2024 : python cl_conf1.py --verb=direct --llm=gpt4 --seed=3407 --wv_dim=512 --verbose=False
+Accuracy: 0.7128571428571429
+<<<<< Finished; Run count: 50 Total runs: 100 / Fri May 10 14:12:47 2024
+
+ llm: gpt4 desc: direct wv_dims: 512 seeds: [23, 123, 223, 323, 3407] Ave: 0.7182857142857143 Std dev: 0.0033073819722258
+
+>>>>> Executing / Fri May 10 14:12:47 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=23 --wv_dim=-1 --verbose=False
+Accuracy: 0.7278571428571429
+<<<<< Finished; Run count: 51 Total runs: 100 / Fri May 10 14:20:47 2024
+
+>>>>> Executing / Fri May 10 14:20:47 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=123 --wv_dim=-1 --verbose=False
+Accuracy: 0.7228571428571429
+<<<<< Finished; Run count: 52 Total runs: 100 / Fri May 10 14:33:31 2024
+
+>>>>> Executing / Fri May 10 14:33:31 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=223 --wv_dim=-1 --verbose=False
+Accuracy: 0.72
+<<<<< Finished; Run count: 53 Total runs: 100 / Fri May 10 14:41:30 2024
+
+>>>>> Executing / Fri May 10 14:41:30 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=323 --wv_dim=-1 --verbose=False
+Accuracy: 0.7271428571428571
+<<<<< Finished; Run count: 54 Total runs: 100 / Fri May 10 14:49:29 2024
+
+>>>>> Executing / Fri May 10 14:49:29 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=3407 --wv_dim=-1 --verbose=False
+Accuracy: 0.7328571428571429
+<<<<< Finished; Run count: 55 Total runs: 100 / Fri May 10 14:55:34 2024
+
+ llm: gpt4 desc: direct2 wv_dims: -1 seeds: [23, 123, 223, 323, 3407] Ave: 0.7261428571428571 Std dev: 0.004417035666782954
+
+>>>>> Executing / Fri May 10 14:55:34 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=23 --wv_dim=0 --verbose=False
+Accuracy: 0.7292857142857143
+<<<<< Finished; Run count: 56 Total runs: 100 / Fri May 10 15:01:04 2024
+
+>>>>> Executing / Fri May 10 15:01:04 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=123 --wv_dim=0 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 57 Total runs: 100 / Fri May 10 15:07:26 2024
+
+>>>>> Executing / Fri May 10 15:07:26 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=223 --wv_dim=0 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 58 Total runs: 100 / Fri May 10 15:13:48 2024
+
+>>>>> Executing / Fri May 10 15:13:48 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=323 --wv_dim=0 --verbose=False
+Accuracy: 0.7335714285714285
+<<<<< Finished; Run count: 59 Total runs: 100 / Fri May 10 15:20:08 2024
+
+>>>>> Executing / Fri May 10 15:20:08 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=3407 --wv_dim=0 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 60 Total runs: 100 / Fri May 10 15:25:37 2024
+
+ llm: gpt4 desc: direct2 wv_dims: 0 seeds: [23, 123, 223, 323, 3407] Ave: 0.7335714285714285 Std dev: 0.002213133340689936
+
+>>>>> Executing / Fri May 10 15:25:37 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=23 --wv_dim=32 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 61 Total runs: 100 / Fri May 10 15:31:43 2024
+
+>>>>> Executing / Fri May 10 15:31:43 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=123 --wv_dim=32 --verbose=False
+Accuracy: 0.735
+<<<<< Finished; Run count: 62 Total runs: 100 / Fri May 10 15:38:45 2024
+
+>>>>> Executing / Fri May 10 15:38:45 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=223 --wv_dim=32 --verbose=False
+Accuracy: 0.7321428571428571
+<<<<< Finished; Run count: 63 Total runs: 100 / Fri May 10 15:44:51 2024
+
+>>>>> Executing / Fri May 10 15:44:51 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=323 --wv_dim=32 --verbose=False
+Accuracy: 0.7257142857142858
+<<<<< Finished; Run count: 64 Total runs: 100 / Fri May 10 15:50:56 2024
+
+>>>>> Executing / Fri May 10 15:50:56 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=3407 --wv_dim=32 --verbose=False
+Accuracy: 0.725
+<<<<< Finished; Run count: 65 Total runs: 100 / Fri May 10 15:58:55 2024
+
+ llm: gpt4 desc: direct2 wv_dims: 32 seeds: [23, 123, 223, 323, 3407] Ave: 0.7305714285714285 Std dev: 0.004389226141639192
+
+>>>>> Executing / Fri May 10 15:58:55 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=23 --wv_dim=128 --verbose=False
+Accuracy: 0.7285714285714285
+<<<<< Finished; Run count: 66 Total runs: 100 / Fri May 10 16:05:58 2024
+
+>>>>> Executing / Fri May 10 16:05:58 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=123 --wv_dim=128 --verbose=False
+Accuracy: 0.7371428571428571
+<<<<< Finished; Run count: 67 Total runs: 100 / Fri May 10 16:13:58 2024
+
+>>>>> Executing / Fri May 10 16:13:58 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=223 --wv_dim=128 --verbose=False
+Accuracy: 0.7335714285714285
+<<<<< Finished; Run count: 68 Total runs: 100 / Fri May 10 16:21:58 2024
+
+>>>>> Executing / Fri May 10 16:21:58 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=323 --wv_dim=128 --verbose=False
+Accuracy: 0.74
+<<<<< Finished; Run count: 69 Total runs: 100 / Fri May 10 16:29:58 2024
+
+>>>>> Executing / Fri May 10 16:29:58 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=3407 --wv_dim=128 --verbose=False
+Accuracy: 0.7264285714285714
+<<<<< Finished; Run count: 70 Total runs: 100 / Fri May 10 16:37:57 2024
+
+ llm: gpt4 desc: direct2 wv_dims: 128 seeds: [23, 123, 223, 323, 3407] Ave: 0.7331428571428571 Std dev: 0.0050829848213306255
+
+>>>>> Executing / Fri May 10 16:37:57 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=23 --wv_dim=512 --verbose=False
+Accuracy: 0.725
+<<<<< Finished; Run count: 71 Total runs: 100 / Fri May 10 16:46:00 2024
+
+>>>>> Executing / Fri May 10 16:46:00 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=123 --wv_dim=512 --verbose=False
+Accuracy: 0.7271428571428571
+<<<<< Finished; Run count: 72 Total runs: 100 / Fri May 10 16:54:02 2024
+
+>>>>> Executing / Fri May 10 16:54:02 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=223 --wv_dim=512 --verbose=False
+Accuracy: 0.7285714285714285
+<<<<< Finished; Run count: 73 Total runs: 100 / Fri May 10 17:02:04 2024
+
+>>>>> Executing / Fri May 10 17:02:04 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=323 --wv_dim=512 --verbose=False
+Accuracy: 0.725
+<<<<< Finished; Run count: 74 Total runs: 100 / Fri May 10 17:10:08 2024
+
+>>>>> Executing / Fri May 10 17:10:08 2024 : python cl_conf1.py --verb=direct2 --llm=gpt4 --seed=3407 --wv_dim=512 --verbose=False
+Accuracy: 0.7321428571428571
+<<<<< Finished; Run count: 75 Total runs: 100 / Fri May 10 17:18:10 2024
+
+ llm: gpt4 desc: direct2 wv_dims: 512 seeds: [23, 123, 223, 323, 3407] Ave: 0.7275714285714285 Std dev: 0.0026572964625340306
