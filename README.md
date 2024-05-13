@@ -61,7 +61,8 @@ The code and data relevant to the LREC-COLING 2024 paper are maintained in this 
 ## Errata for the LREC-COLING 2024 paper
 We would like to make some revisions to Table 7 as follows. These revisions are proposed due to minor mistakes that occurred in the reported experiments. We believe these changes do not affect the insights described in the paper.
 
-![image](https://github.com/yoshihikohayashi/wic_llm/assets/34477994/5226aa5b-09d1-4895-86f2-54a25330edbb)
+![image](https://github.com/yoshihikohayashi/wic_llm/assets/34477994/76496628-8608-4bf0-a0db-d3c553d1418b)
+
 
 ### More details on the mistake
 The development split of the data had not been properly processed, which affected the training process in some cases, as the development data was used to decide the stopping timing of learning processes.
