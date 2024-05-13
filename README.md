@@ -35,8 +35,8 @@ The code and data relevant to the LREC-COLING 2024 paper are maintained in this 
 * **data_tsv**: This directory should maitain ready-for-experiments files, which are train.tsv, dev.tsv, and test.tsv. These files are created by the Python script, merge_wic_data.py. Similar to the descriptions directory, the files are encoded and can be extracted by decoding the descriptions.enc file. For more details, please refer to the README.txt file in this directory.
   
 * **Wic_results_db**: This directory is intended for storing experiment result files. Currently, the following files exist:
- * cl_config_1.json, cl_config_2.json: These files maintain experimental results with Configuration#1 and Configuration#2, respectively. Please refer to section 5 of the paper for details.
- * zs_gpt-3.5-turbo-0613_test_2.json, zs_gpt-4-0613_test_2.json: These files respectively exemplify the experimental results of the zero-shot baselines. They are converted to associated tsv files using zs_json2tsv.py, which is also in this directory.
+  * cl_config_1.json, cl_config_2.json: These files maintain experimental results with Configuration#1 and Configuration#2, respectively. Please refer to section 5 of the paper for details.
+  * zs_gpt-3.5-turbo-0613_test_2.json, zs_gpt-4-0613_test_2.json: These files respectively exemplify the experimental results of the zero-shot baselines. They are converted to associated tsv files using zs_json2tsv.py, which is also in this directory.
 
 * **logs**: This directory stores log files of the text classification experiments. It currently contains four files for two configurations (#1 and #2) and two LLMs (GPT-3.5 and GPT-4).
 
