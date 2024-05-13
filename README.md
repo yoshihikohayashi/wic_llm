@@ -1,6 +1,6 @@
 # Evaluating LLMs on the WiC Task
 The code and data relevant to the LREC-COLING 2024 paper are maintained in this repository.
-- Yoshihiko Hayashi, "Reassessing Semantic Knowledge Encoded in Large Language Models through the Word-in-Context Task," LREC-COLING 2024.
+- Yoshihiko Hayashi, "**Reassessing Semantic Knowledge Encoded in Large Language Models through the Word-in-Context Task**," LREC-COLING 2024.
 
 ## Quick overview
 * To conduct classification experiments, follow these steps:
